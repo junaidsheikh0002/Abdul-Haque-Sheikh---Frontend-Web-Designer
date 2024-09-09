@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e2a6d;
+    color: #f7b318;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #253773;
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.profile h2 {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: normal;
+    color: #f7b318;
+}
+
+.about,
+.experience,
+.education,
+.skills,
+.interests {
+    margin-bottom: 20px;
+}
+
+.about h3,
+.experience h3,
+.education h3,
+.skills h3,
+.interests h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 5px;
+}
+
+.social-media a {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #f7b318;
+    text-decoration: none;
+}
+
+.experience ul,
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience li,
+.education li {
+    margin-bottom: 10px;
+}
+
+.skills .programming-skills ul,
+.skills .software-skills {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills .programming-skills ul li {
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: #f7b318;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.skill-bar::after {
+    content: attr(data-skill);
+    position: absolute;
+    right: 0;
+    top: -25px;
+    font-size: 0.8em;
+    color: #f7b318;
+}
+
+.skill-bar[data-skill="95%"] {
+    width: 95%;
+}
+
+.skill-bar[data-skill="90%"] {
+    width: 90%;
+}
+
+.skill-bar[data-skill="75%"] {
+    width: 75%;
+}
+
+.skill-bar[data-skill="65%"] {
+    width: 65%;
+}
+
+.skill-bar[data-skill="50%"] {
+    width: 50%;
+}
+
+.skill-bar[data-skill="60%"] {
+    width: 60%;
+}
+
+.skill-bar[data-skill="70%"] {
+    width: 70%;
+}
+
+.skill-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #f7b318;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    font-size: 0.9em;
+    color: #f7b318;
+}
+
+.interests ul {
+    list-style: none;
+    padding: 0;
+}
+
+.interests ul li {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
